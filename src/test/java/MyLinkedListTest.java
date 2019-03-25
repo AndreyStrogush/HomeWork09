@@ -1,4 +1,5 @@
 import com.homework.model.MyLinkedList;
+import com.homework.model.MyList;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -6,7 +7,7 @@ import static junit.framework.TestCase.assertEquals;
 
 public class MyLinkedListTest {
     private final int TEST_CAPACITY = 5;
-    MyLinkedList<Integer> myLinkedList;
+    MyList<Integer> myLinkedList;
 
 
     @Before

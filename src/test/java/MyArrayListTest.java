@@ -1,4 +1,5 @@
 import com.homework.model.MyArrayList;
+import com.homework.model.MyList;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -7,7 +8,7 @@ import static org.junit.Assert.assertEquals;
 public class MyArrayListTest {
     private final int DEFAULT_CAPACITY = 10;
     private final int TEST_CAPACITY = 5;
-    private MyArrayList<Integer> myArrayList;
+    private MyList<Integer> myArrayList;
     private Object[] elementData;
 
     @Before
